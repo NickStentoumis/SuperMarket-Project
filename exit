@@ -1,0 +1,252 @@
+[33mcommit 512771b08a2ace015c0c8512c403a6f78c338770[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: NickStentoumis <stentoumis.nikolaos@gmail.com>
+Date:   Sat Mar 30 14:44:18 2024 +0200
+
+    add product position added to API
+
+[33mcommit 580dfcbc987ab3ba5ca993813a05394beabfd096[m
+Author: NickStentoumis <stentoumis.nikolaos@gmail.com>
+Date:   Sat Mar 30 12:14:56 2024 +0200
+
+    Product Change Price, added to API
+
+[33mcommit f69a30c7e8630fcdb8a70f7e6989031010215367[m
+Merge: 3f6c6cc 8527791
+Author: Chris Koutsogiannopoulos <stamatiou21@yahoo.gr>
+Date:   Sat Mar 30 10:13:26 2024 +0200
+
+    Merge remote-tracking branch 'origin/main'
+
+[33mcommit 3f6c6cc27be2c3da69868d2dcde650f9bf43c906[m
+Author: Chris Koutsogiannopoulos <stamatiou21@yahoo.gr>
+Date:   Sat Mar 30 10:12:55 2024 +0200
+
+    Addshelf added to shelfContainerResource
+
+[33mcommit 85277911a12cb31bbaac23ff9ecd656fdd9a4b5f[m
+Author: NickStentoumis <stentoumis.nikolaos@gmail.com>
+Date:   Sat Mar 30 00:17:14 2024 +0200
+
+    CustomerResource
+
+[33mcommit e8390a98c10068b11a4a924cd48c7977f4201415[m
+Author: NickStentoumis <stentoumis.nikolaos@gmail.com>
+Date:   Sat Mar 30 00:16:30 2024 +0200
+
+    CustomerResource
+
+[33mcommit 8d263b5d829f47f8f860cf8914fc7ce9efbfa5e1[m
+Author: NickStentoumis <stentoumis.nikolaos@gmail.com>
+Date:   Fri Mar 29 23:53:16 2024 +0200
+
+    Housekeeping
+
+[33mcommit 0f4c00bd107ff019faa20b0cc4db94aeefbb8862[m
+Author: NickStentoumis <stentoumis.nikolaos@gmail.com>
+Date:   Fri Mar 29 23:49:45 2024 +0200
+
+    Housekeeping
+
+[33mcommit 104cca0bf37b7cb6903860839a64ba06bf80593f[m
+Author: Chris Koutsogiannopoulos <stamatiou21@yahoo.gr>
+Date:   Thu Mar 28 17:36:30 2024 +0200
+
+    Removed objects causing test failures
+
+[33mcommit 3fdc2965c9e169cf31dc0146ffc281e3955a83f1[m
+Author: Chris Koutsogiannopoulos <stamatiou21@yahoo.gr>
+Date:   Thu Mar 28 15:51:17 2024 +0200
+
+    Order & OrderLine progress
+
+[33mcommit 40bf9811203d5641cad91eb76b8f86dbce97a995[m
+Author: Chris Koutsogiannopoulos <stamatiou21@yahoo.gr>
+Date:   Tue Mar 26 11:26:39 2024 +0200
+
+    Latest additions & mods
+
+[33mcommit 345348661dbf77d45de5d0e9d2fd0d11f6764bd8[m
+Merge: 71ceedc c358ed8
+Author: Chris Koutsogiannopoulos <stamatiou21@yahoo.gr>
+Date:   Sun Mar 24 10:46:38 2024 +0200
+
+    Merge remote-tracking branch 'origin/main'
+
+[33mcommit 71ceedc159699763bf17af1424fa2a255f265526[m
+Author: Chris Koutsogiannopoulos <stamatiou21@yahoo.gr>
+Date:   Sun Mar 24 10:46:10 2024 +0200
+
+    Latest changes related to my part
+
+[33mcommit c358ed8230bc13dcb84280e850a8f2997e9f166a[m
+Author: Manolis Partsinevelos <partsinevelosm@gmail.com>
+Date:   Sat Mar 23 13:02:16 2024 +0200
+
+    PickupRepresentation toEntity
+
+[33mcommit 8231a7d8fa14f289a8fc1d8b522f3df8ba4e5950[m
+Author: Manolis Partsinevelos <partsinevelosm@gmail.com>
+Date:   Sat Mar 23 12:34:21 2024 +0200
+
+    minor changes
+
+[33mcommit 4540df5f1f5d2acfcd8f0f0b77c6e053bac3b017[m
+Author: Manolis Partsinevelos <partsinevelosm@gmail.com>
+Date:   Sat Mar 23 12:33:57 2024 +0200
+
+    pickup& order mappers
+
+[33mcommit 6a51d7ad4a1066289c057ed7e7c36e3d96da33ec[m
+Author: Manolis Partsinevelos <partsinevelosm@gmail.com>
+Date:   Sat Mar 23 12:33:22 2024 +0200
+
+    pickup& order representations
+
+[33mcommit 89b2c00a99f8b23b2472d3d6c877076d93b56312[m
+Author: Manolis Partsinevelos <partsinevelosm@gmail.com>
+Date:   Sat Mar 23 11:47:14 2024 +0200
+
+    super market uri updates
+
+[33mcommit 1ebd374a15ffee87a2f041b165ed4b4c9e0ebf8f[m
+Merge: dc5468a d94695c
+Author: NickStentoumis <stentoumis.nikolaos@gmail.com>
+Date:   Sat Mar 23 11:42:21 2024 +0200
+
+    Merge remote-tracking branch 'origin/main'
+
+[33mcommit dc5468a21850c9a6dfe9dd8c90e2aa7c006026fa[m
+Author: NickStentoumis <stentoumis.nikolaos@gmail.com>
+Date:   Sat Mar 23 11:41:26 2024 +0200
+
+    Mappers for Employee and Customer and associated Tests. Persistence Tests for Employee and Customer
+
+[33mcommit d94695cb23fd4c5a117cb010c1f770ab38b04763[m
+Author: Manolis Partsinevelos <partsinevelosm@gmail.com>
+Date:   Sat Mar 23 11:31:02 2024 +0200
+
+    register for reflection annotation
+
+[33mcommit f01a416a6b36d563655920621f8f5da03f597b3a[m
+Merge: 195dcaf 97b8a68
+Author: NickStentoumis <stentoumis.nikolaos@gmail.com>
+Date:   Sat Mar 23 10:53:16 2024 +0200
+
+    Merge branch 'main' of https://github.com/softeng-aueb/team1-pt-2023-24
+    
+    # Conflicts:
+    #       src/main/resources/import.sql
+    #       src/test/java/gr/aueb/supermarket/util/IntegrationBase.java
+    #       test.mv.db
+
+[33mcommit 195dcaf2e5aab78b6eb770ebc05e62ae7afe2e0b[m
+Author: NickStentoumis <stentoumis.nikolaos@gmail.com>
+Date:   Sat Mar 23 10:52:56 2024 +0200
+
+    whatever
+
+[33mcommit 97b8a680125161466cf1c2eb40dd9e371df1600c[m
+Author: NickStentoumis <stentoumis.nikolaos@gmail.com>
+Date:   Fri Mar 22 23:55:55 2024 +0200
+
+    Post Method for Product Resource
+
+[33mcommit e58d66e0e97d333004029874d012c39539d44577[m
+Author: Chris Koutsogiannopoulos <stamatiou21@yahoo.gr>
+Date:   Fri Mar 22 18:01:32 2024 +0200
+
+    Mappers, Repositories and Resources for Shelf & ShelfContainer added
+
+[33mcommit 5397b5b7cc48b5afc3bd0ed09b0e6272a9e773d1[m
+Author: NickStentoumis <stentoumis.nikolaos@gmail.com>
+Date:   Thu Mar 21 12:05:21 2024 +0200
+
+    First Resource Class. ProductResource. Creation of Fixture class and SuperMarketURI class. Tests for ProductResource and ProductMapper added as well
+
+[33mcommit 94a2baaac2ba879c267667260607031125b3b0f5[m
+Author: NickStentoumis <stentoumis.nikolaos@gmail.com>
+Date:   Wed Mar 20 17:17:36 2024 +0200
+
+    Bug Fixes
+
+[33mcommit 572bf59101d70c8f846938a80662a08c45e8b803[m
+Merge: 33646c1 90bab2b
+Author: NickStentoumis <stentoumis.nikolaos@gmail.com>
+Date:   Wed Mar 20 16:50:38 2024 +0200
+
+    Merge remote-tracking branch 'origin/main'
+
+[33mcommit 33646c141b845fc93084ddb6c84d22824d5d00d0[m
+Author: NickStentoumis <stentoumis.nikolaos@gmail.com>
+Date:   Wed Mar 20 16:49:58 2024 +0200
+
+    Product and ProductPosition Mappers and Representations
+
+[33mcommit 90bab2b94f723d16bc02aa928a1a73c2040a973c[m
+Author: Chris Koutsogiannopoulos <stamatiou21@yahoo.gr>
+Date:   Wed Mar 20 14:50:48 2024 +0200
+
+    Mapper & Resource classes for Shelf & ShelfContainer
+
+[33mcommit 68eb2ec8970fc7bcf40440733b61c335ef224cdc[m
+Merge: d63d128 669c522
+Author: Chris Koutsogiannopoulos <stamatiou21@yahoo.gr>
+Date:   Wed Mar 20 13:46:43 2024 +0200
+
+    Merge branch 'main' of https://github.com/softeng-aueb/team1-pt-2023-24
+
+[33mcommit d63d128af38073218a644d846ec4077c9671983a[m
+Author: Chris Koutsogiannopoulos <stamatiou21@yahoo.gr>
+Date:   Wed Mar 20 13:45:42 2024 +0200
+
+    get 95 send 4
+
+[33mcommit 669c522b2b2999b3a9c8e3d2009a85d37b128be7[m
+Author: NickStentoumis <stentoumis.nikolaos@gmail.com>
+Date:   Tue Mar 19 17:41:19 2024 +0200
+
+    More Repositories
+
+[33mcommit 2d69f29dfa89dec19becc2f6f3d74c9cbe638199[m
+Author: NickStentoumis <stentoumis.nikolaos@gmail.com>
+Date:   Mon Mar 18 22:25:39 2024 +0200
+
+    First Repositories
+
+[33mcommit ea0b2ecbb7c9e754c61567cf104dcc6f81d06fef[m
+Author: NickStentoumis <stentoumis.nikolaos@gmail.com>
+Date:   Sun Mar 17 11:13:52 2024 +0200
+
+    Migration Completed
+
+[33mcommit 215b0bd97ae5b269c76e601636a6a3ac1ca6c70d[m
+Author: NickStentoumis <stentoumis.nikolaos@gmail.com>
+Date:   Sat Mar 16 23:10:23 2024 +0200
+
+    Started Migration Process. Import.sql half way there, IntegrationBase created.
+
+[33mcommit c738a3a455ba906fc13dbfb4937b956c766b2026[m
+Author: Manolis Partsinevelos <partsinevelosm@gmail.com>
+Date:   Mon Mar 4 14:35:43 2024 +0200
+
+    orders, pickups count
+
+[33mcommit 7ded1a70f7eb596b7606a2a43af9b0d73c7adb5f[m
+Author: NickStentoumis <stentoumis.nikolaos@gmail.com>
+Date:   Sun Mar 3 10:28:33 2024 +0200
+
+    Nothing Really
+
+[33mcommit 062640f309e7d3731ecb4204bc46c2e1b97bd39a[m
+Author: NickStentoumis <stentoumis.nikolaos@gmail.com>
+Date:   Sat Mar 2 12:52:58 2024 +0200
+
+    Tiny Improvements
+
+[33mcommit 1bc39a7e26f50323df29159a8a2c2593a9baad08[m
+Author: NickStentoumis <stentoumis.nikolaos@gmail.com>
+Date:   Sat Mar 2 11:58:53 2024 +0200
+
+    More Junit Tests
+
+[33mcommit 895b7be7726cadcc19bccd50b89cbc669fb
