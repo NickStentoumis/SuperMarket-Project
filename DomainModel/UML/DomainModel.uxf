@@ -92,7 +92,7 @@ CHOCOLATE
 CHEESE
 
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>171</x><y>9</y><w>144</w><h>99</h></coordinates><panel_attributes>«enumeration»
-Customer Level
+Customer Tier
 --
 PLATINUM
 BRONZE
