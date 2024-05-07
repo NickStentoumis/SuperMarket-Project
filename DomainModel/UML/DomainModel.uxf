@@ -1,115 +1,115 @@
-<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>1116</x><y>783</y><w>189</w><h>99</h></coordinates><panel_attributes>Προϊόν
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>1116</x><y>783</y><w>189</w><h>99</h></coordinates><panel_attributes>Product
 --
-Επωνυμία: String
-Τιμή: Double
-Κατηγορία Προϊόντος: Κατηγορία
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1098</x><y>279</y><w>189</w><h>54</h></coordinates><panel_attributes>Ράφι
+Name String
+Price: Double
+ProductCategory: Product Category
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1098</x><y>279</y><w>189</w><h>54</h></coordinates><panel_attributes>Shelf
 --
-Επίπεδο: int
-Χωρήτικότητα: int</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>153</x><y>207</y><w>189</w><h>63</h></coordinates><panel_attributes>Πελάτης
+Level: int
+Capacity: int</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>153</x><y>207</y><w>189</w><h>63</h></coordinates><panel_attributes>Customer
 --
-Πόντοι: int
-Συνολικά Χρήματα: Double
-Επίπεδο πελάτη: Επίπεδο Πελάτη
+Points: int
+Money Spent: Double
+Tier: Customer Level
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>144</x><y>765</y><w>270</w><h>108</h></coordinates><panel_attributes>Παραγγελία
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>144</x><y>765</y><w>270</w><h>108</h></coordinates><panel_attributes>Order
 --
-Ημερομηνία: Date
-Παραλαβή από: LocalDateTime
-Παραλαβή εώς: LocalDateTime
-ΚατάστασηΠαραγγελίας: Κατάσταση Παραγγελίας
-Πόντοι Παραγγελίας: Int
-Κόστος: Double</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>612</x><y>252</y><w>189</w><h>90</h></coordinates><panel_attributes>Υπάλληλος
+Date: Date
+PickupTimeStampFrom LocalDateTime
+PickupTimeStampTo: LocalDateTime
+OrderStatus Κατάσταση Παραγγελίας
+Points: Int
+Cost: Double</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>612</x><y>252</y><w>189</w><h>90</h></coordinates><panel_attributes>Employee
 --
-Τμήμα: String
-Θέση: String
-Ημερομηνία πρόσληψης; Date
+Department: String
+Position: String
+Date_of_Recruitment; Date
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>351</x><y>0</y><w>189</w><h>162</h></coordinates><panel_attributes>Πρόσωπο
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>351</x><y>0</y><w>189</w><h>162</h></coordinates><panel_attributes>Person
 --
-Όνομα: String
-Επώνυμο: String
+Name: String
+Surname: String
 Email: String
-Τηλέφωνο: String
-Ημερομηνία Γέννησης: Date
-Φύλο: int
+Phone: String
+Date_of_Birth: Date
+Gender: int
 Username: String
 Password: String
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>243</x><y>153</y><w>207</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>210;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>153</y><w>270</w><h>117</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;280;110</additional_attributes></element><element><id>Relation</id><coordinates><x>198</x><y>261</y><w>144</w><h>522</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>243</x><y>153</y><w>207</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>210;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>153</y><w>270</w><h>117</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;280;110</additional_attributes></element><element><id>Relation</id><coordinates><x>198</x><y>261</y><w>126</w><h>522</h></coordinates><panel_attributes>lt=-
 m1=0..n
 m2=1
-Υποβάλλει &gt;</panel_attributes><additional_attributes>10;560;120;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>18</x><y>9</y><w>144</w><h>108</h></coordinates><panel_attributes>«enumeration»
-Κατάσταση Παραγγελίας
+Submits&gt;</panel_attributes><additional_attributes>10;560;120;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>18</x><y>9</y><w>144</w><h>108</h></coordinates><panel_attributes>«enumeration»
+Order Status
 --
-ΣΕ ΕΚΚΡΕΜΟΤΗΤΑ
-ΓΙΑ ΕΚΤΕΛΕΣΗ
-ΣΕ ΕΞΕΛΙΞΗ
-ΕΤΟΙΜΗ ΠΡΟΣ ΠΑΡΑΛΑΒΗ
-ΟΛΟΚΛΗΡΩΜΕΝΗ
+PENDING
+TO BE EXECUTED
+IN_PROGRESS
+PENDING_DELIVERY
+CONCLUDED
 
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>297</x><y>333</y><w>351</w><h>450</h></coordinates><panel_attributes>lt=-
 m1=1
 m2=*
-Εκτελεί &lt;</panel_attributes><additional_attributes>370;10;10;480</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1098</x><y>18</y><w>189</w><h>63</h></coordinates><panel_attributes>Ραφιέρα
+Executes&lt;</panel_attributes><additional_attributes>370;10;10;480</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1098</x><y>18</y><w>189</w><h>63</h></coordinates><panel_attributes>Shelf_Container
 --
-Όροφος: int
-Διάδρομος: int</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1188</x><y>72</y><w>45</w><h>225</h></coordinates><panel_attributes>lt=-
+Floor: int
+Corridor: int</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1188</x><y>72</y><w>45</w><h>225</h></coordinates><panel_attributes>lt=-
 m1=1..n
-m2=1</panel_attributes><additional_attributes>10;230;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>396</y><w>216</w><h>63</h></coordinates><panel_attributes>Παραλαβή
+m2=1</panel_attributes><additional_attributes>10;230;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>396</y><w>216</w><h>63</h></coordinates><panel_attributes>Pickup
 --
-Ημερομηνία πραλαβής: LocalDateTime
-Εξόφληση: Τρόπος Πληρωμής</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>54</x><y>450</y><w>126</w><h>333</h></coordinates><panel_attributes>lt=-
+Pickup_Date: LocalDateTime
+Payment: Payment Methods</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>54</x><y>450</y><w>126</w><h>333</h></coordinates><panel_attributes>lt=-
 m1=0..1
 
 m2=1
 </panel_attributes><additional_attributes>10;10;120;350</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1314</x><y>18</y><w>144</w><h>81</h></coordinates><panel_attributes>«enumeration»
-Τρόπος Πληρωμής
+Payment Methods
 --
-ΜΕΤΡΗΤΑ
-ΚΑΡΤΑ
+CASH
+CARD
 
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>405</x><y>810</y><w>270</w><h>45</h></coordinates><panel_attributes>lt=-
 m1=*
 m2=1
-Περιέχει &gt;</panel_attributes><additional_attributes>280;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>639</x><y>18</y><w>189</w><h>90</h></coordinates><panel_attributes>Διεύθυνση
+Contains &gt;</panel_attributes><additional_attributes>280;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>639</x><y>18</y><w>189</w><h>90</h></coordinates><panel_attributes>Address
 --
-Οδός: String
-Αριθμός: Int
-Πόλη: String
-ΤΚ: String
+Street: String
+Number: Int
+Town: String
+Post Code: String
 
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>720</x><y>99</y><w>27</w><h>171</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 </panel_attributes><additional_attributes>10;170;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>873</x><y>9</y><w>189</w><h>153</h></coordinates><panel_attributes>«enumeration»
-Κατηγορία Προϊόντος
+Product Category
 --
-ΦΡΟΥΤΑ
-ΛΑΧΑΝΙΚΑ
-ΚΡΕΑΣ
-ΨΑΡΙ
-ΓΑΛΑΚΤΟΚΟΜΙΚΑ
-ΣΝΑΚΣ
-ΣΟΚΟΛΑΤΟΕΙΔΗ
-ΤΥΡΙΑ
+FRUITS
+VEGETABLES
+MEAT
+FISH
+DAIRY
+SNACKS
+CHOCOLATE
+CHEESE
 
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>171</x><y>9</y><w>144</w><h>99</h></coordinates><panel_attributes>«enumeration»
-Επίπεδο Πελάτη
+Customer Level
 --
 PLATINUM
 BRONZE
 SILVER
 GOLD
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1188</x><y>324</y><w>72</w><h>216</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1188</x><y>324</y><w>81</w><h>216</h></coordinates><panel_attributes>lt=-
 m1=0..n
 
 m2=1
-Περιέχει&gt;</panel_attributes><additional_attributes>10;220;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>657</x><y>774</y><w>189</w><h>99</h></coordinates><panel_attributes>Γραμμή Παραγγελίας
+Containsι&gt;</panel_attributes><additional_attributes>10;220;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>657</x><y>774</y><w>189</w><h>99</h></coordinates><panel_attributes>OrderLine
 --
-Ποσότητα:int</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1107</x><y>522</y><w>189</w><h>99</h></coordinates><panel_attributes>Τοποθεσία Προϊόντος
+Quantity:int</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1107</x><y>522</y><w>189</w><h>99</h></coordinates><panel_attributes>Product Location
 --
-Ποσότητα:int</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1197</x><y>612</y><w>36</w><h>189</h></coordinates><panel_attributes>lt=-
+Quantity:int</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1197</x><y>612</y><w>36</w><h>189</h></coordinates><panel_attributes>lt=-
 m1=1
 m2=1</panel_attributes><additional_attributes>10;190;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>837</x><y>810</y><w>297</w><h>45</h></coordinates><panel_attributes>lt=-
 m1=1
 m2=*
-Περιέχει &gt;</panel_attributes><additional_attributes>310;20;10;20</additional_attributes></element></diagram>
+Contains&gt;</panel_attributes><additional_attributes>310;20;10;20</additional_attributes></element></diagram>
