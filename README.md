@@ -3,6 +3,10 @@ Super Market Support Service
 
 This application aims to automate the various processes and functions of a super market.
 
+This version has been developed with the Quarkus framework.
+
+It leverages JPA and Hibernate as a JPA Provider to support database access. It provides as REST services by leveraging the JAX-RS API. It also uses the MapStruct tool to generate JSON representations of REST services from field logic objects.
+
 Basic Functions.
 -------------------
 
